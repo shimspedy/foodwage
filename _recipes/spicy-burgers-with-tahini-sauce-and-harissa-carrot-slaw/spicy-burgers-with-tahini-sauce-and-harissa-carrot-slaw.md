@@ -44,7 +44,7 @@ directions:
 - the slaw:
 - In a medium bowl, whisk together 1 tablespoon lemon juice and harissa. Add the carrots, cilantro, salt and pepper and toss to combine, set aside.
 - the sauce: 
--In a small bowl, whisk together the tahini, 1 tablespoon hot water, remaining lemon juice and maple syrup until smooth; set aside.
+- In a small bowl, whisk together the tahini, 1 tablespoon hot water, remaining lemon juice and maple syrup until smooth; set aside.
 - To cook the burgers, preheat a grill or a non-stick grill pan over medium-high heat. Add the burgers and grill until juices run nearly clear when pierced in the center of a patty, 2–3 minutes per side. Place the burgers on the toasted flatbreads, top with lettuce, tahini sauce and slaw. Serve immediately.
 
 ---

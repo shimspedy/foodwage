@@ -33,7 +33,7 @@ directions:
 - For the raita:
 - In a medium bowl, combine the chopped spinach, ginger, paprika and yogurt and stir to mix. Chill until ready to serve. Makes about 0.75 cup.
 - For the skewers:
--Preheat the grill. In a medium bowl, mix the turmeric, cumin and coriander. Use a chef’s knife to skin the salmon filet, then divide into 8 even cubes. Place in the bowl with the spices and turn to coat. Add the pepper pieces and drizzle the canola oil over it all, gently turning to distribute the oil.
+- Preheat the grill. In a medium bowl, mix the turmeric, cumin and coriander. Use a chef’s knife to skin the salmon filet, then divide into 8 even cubes. Place in the bowl with the spices and turn to coat. Add the pepper pieces and drizzle the canola oil over it all, gently turning to distribute the oil.
 - Thread the salmon and peppers onto to two skewers.
 - Scrape the grill and place the skewers on the grill. Cook for about 2–3 minutes before turning, then cook for another 2–3 minutes, until cooked through. Serve with raita
 
