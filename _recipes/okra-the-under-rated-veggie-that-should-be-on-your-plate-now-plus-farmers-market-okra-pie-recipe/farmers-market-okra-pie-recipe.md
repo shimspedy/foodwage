@@ -1,8 +1,8 @@
 ---
 layout: recipe
-permalink: recipes/okra-the-under-rated-veggie-that-should-be-on-your-plate-now-plus-farmers-market-okra-pie-recipe
-title:  "OKRA: THE UNDER-RATED VEGGIE THAT SHOULD BE ON YOUR PLATE NOW! (PLUS, FARMERS & MARKET OKRA PIE RECIPE)"
-image: Okra-the-Under-Rated-Veggie-that-Should-Be-On-Your-Plate-Now-Plus-Farmers-Market-Okra-Pie-Recipe.jpg
+permalink: recipes/farmers-market-okra-pie-recipe
+title:  "FARMERS & MARKET OKRA PIE RECIPE"
+image: farmers-market-okra-pie-recipe.jpg
 imagecredit: "unsplash.com"
 categories:  healthy pie vegan vegetarian
 tags:  healthy pie vegan vegetarian
