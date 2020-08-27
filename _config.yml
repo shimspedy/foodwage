@@ -1,0 +1,45 @@
+title: FoodWage
+email: johnnyhashim@gmail.com
+description: Enjoy home made recipe on foodwage.
+baseurl: " "
+language: "en"
+lang_direction: "ltr"
+color: "#BD8721"
+twitter_username: 
+github_username: 
+timezone: Europe/Bucharest
+markdown: kramdown
+
+permalink: /:title:output_ext
+
+collections:
+  components:
+    output: true
+  recipes:
+    output: true
+  chef:
+    output: true
+  meal:
+    output: true
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+pagination:
+  enabled: true
+  debug: false
+  collection: 'recipes'
+  per_page: 20
+  permalink: '/recipes/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: false
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
+  extension: html
+  indexpage: 'index'
+  
+##<script data-ad-client="ca-pub-7616051391644176" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
