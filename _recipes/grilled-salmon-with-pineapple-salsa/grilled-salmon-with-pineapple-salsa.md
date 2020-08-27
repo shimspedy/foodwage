@@ -14,14 +14,12 @@ servings: 2
 notes:
 
 ingredients:
-Salmon:
-
+- Salmon:
 - 0.5| cup  pineapple juice
 - 2|  teaspoons  reduced-sodium soy sauce  certified gluten-free if necessary
 - 2|  fillets  salmon  4-5 ounce each
 
-Salsa:
-
+- Salsa:
 - 0.75| cup  diced pineapple
 - 0.75| cup  diced cucumber
 - 1|  small green onion  sliced thinly
@@ -29,6 +27,7 @@ Salsa:
 - 0.25| teaspoon  cumin
 - 1|  Pinch  chili powder
 - 1|  Pinch  sea salt
+
 directions:
 - In a resealable bag or shallow dish, combine the pineapple juice and soy sauce. Place the salmon inside and refrigerate for 30-60 mins.
 - Chop all ingredients for the salsa and combine in a small bowl. Set aside until ready to serve.
