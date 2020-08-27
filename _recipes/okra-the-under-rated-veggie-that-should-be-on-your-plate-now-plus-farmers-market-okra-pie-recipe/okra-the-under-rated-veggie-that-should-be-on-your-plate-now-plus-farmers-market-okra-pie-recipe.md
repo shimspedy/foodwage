@@ -51,10 +51,22 @@ directions:
 
 ---
 
-Okra is definitely having a (well-deserved) moment. Frequently featured on menus and in farmer’s markets, Okra is available year round in some parts of the southern U.S. (The rest of us have to take advantage of the late summer and early fall harvests to enjoy this veggie!) Still, this green veggie lands on a lot of hate lists—even though it’s got such a delicious flavor. Why? The most frequent complaint is that it’s slimy. But when prepared right, it doesn’t have to be!
-So why is okra so great? Well for starters, it’s high in fiber and low in calories (about 33 for a whole cup!). Okra is also a great natural source of vitamins A, B, C, and K, and folate. That’s a lot of healthy packed into one little pod! Plus, the “sliminess” has benefits, too! The mucilage and fiber found in okra aids digestion, by helping adjust blood sugar and regulating its absorption in the small intestine. This ability to normalize blood sugar has been shown to be beneficial to those with diabetes.
-So how can you make this green veggie more palatable? Two words: dryness and acidity.
+Okra is definitely having a well-deserved moment.
+
+Frequently featured on menus and in farmer’s markets, Okra is available year round in some parts of the southern U.S. (The rest of us have to take advantage of the late summer and early fall harvests to enjoy this veggie!) Still, this green veggie lands on a lot of hate lists—even though it’s got such a delicious flavor. Why? The most frequent complaint is that it’s slimy. But when prepared right, it doesn’t have to be!
+
+#### So why is okra so great? 
+Well for starters, it’s high in fiber and low in calories (about 33 for a whole cup!). Okra is also a great natural source of vitamins A, B, C, and K, and folate. That’s a lot of healthy packed into one little pod! Plus, the “sliminess” has benefits, too! The mucilage and fiber found in okra aids digestion, by helping adjust blood sugar and regulating its absorption in the small intestine.
+
+ This ability to normalize blood sugar has been shown to be beneficial to those with diabetes.
+
+#### So how can you make this green veggie more palatable? Two words: dryness and acidity.
+
 Contact with water is what brings out the coating on okra (which makes sense for digestion), so before you prepare your okra—especially if it’s standing alone in a recipe—be sure to thoroughly dry it first. Acidity is also great for minimizing okra’s slick texture, so rubbing it with lemon, lime, or vinegar will help, too.
-Knowing how to reduce the slime lets you enjoy okra on its own. For a quick, crunchy snack try drying the okra, and rubbing it with a little vinegar. Slice it in half, sprinkle it with salt and pepper, and bake it at 350 degrees until crispy.
+
+Knowing how to reduce the slime lets you enjoy okra on its own. 
+For a quick, crunchy snack try drying the okra, and rubbing it with a little vinegar. Slice it in half, sprinkle it with salt and pepper, and bake it at 350 degrees until crispy.
+
 Okra works well in sauces, too—and gumbo just wouldn’t be the same without it! To minimize that okra texture in sauce, simply add tomatoes! The acidity from the juice of the tomatoes gives the okra a dryer texture, adding a delicious crunch to your dish.
+
 My favorite way to prepare okra is in a savory pie! (Scroll down past the photo for the recipe!) It combines so many of my favorite farmers’ market veggies. The tomato minimizes any sliminess, while the melted cheese adds a decadent creaminess. And since it’s packed with veggies (yay, okra!), it keeps an otherwise indulgent dinner healthy.
