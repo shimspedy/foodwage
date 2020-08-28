@@ -49,16 +49,18 @@
   <meta property="og:description"
     content="{% if page.name == recipe.html %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %} The world’s most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you’re never out of ideas of what to serve at your next meal.{% endif %}">
   <!-- You need to create the tiles below if you want shareable thumbnails. -->
+  {% for image in page.image %}
   <meta property=" og:image" content="{{site.baseurl}}{{page.url}}/{{image}}">
-
+  {% endfor %}
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://foodwage.com{{site.baseurl}}{{page.url}}">
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
   <meta property="twitter:description"
     content="{% if page.name == recipe.html %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %} The world’s most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you’re never out of ideas of what to serve at your next meal.{% endif %}">
+  {% for image in page.image %}
   <meta property="twitter:image" content="{{site.baseurl}}{{page.url}}/{{image}}">
-
+  {% endfor %}
   <!-- Global site verification - Google Tag Manager -->
   <meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXXXXXXXX" />
 
