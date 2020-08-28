@@ -30,7 +30,7 @@ ingredients:
 - 1|  Pinch pepper
 
 directions:
-- In a medium saucepan, bring the quinoa and 0.66666666666 cup of water to a boil. Once boiling, reduced heat, cover and let simmer for 15 minutes. It is done when there is no water left. Fluff the quinoa with a fork and let cool completely.
+- In a medium saucepan, bring the quinoa and 2/3 cup of water to a boil. Once boiling, reduced heat, cover and let simmer for 15 minutes. It is done when there is no water left. Fluff the quinoa with a fork and let cool completely.
 - Make the dressing by whisking all of the dressing ingredients together in a small bowl. Taste it to make sure you don’t need to add more honey or mustard to match your flavor preference.
 - Add the kale, apples, cooled quinoa and almonds to a large mixing bowl. Pour the dressing over the top and mix until the salad is completely coated with the dressing
 
