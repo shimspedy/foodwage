@@ -14,15 +14,13 @@ servings: 4
 notes:
 
 ingredients:
-Salad:
-
+- Salad:
 - 1| Red Seedless Grapes, quartered Red Seedless Grapes, quartered 
 - 0.25| cup Cottage Cheese 
 - 1.5| tbsp Olive Oil 
 - 0.25| tbsp Honey, divided
 
-salmon:
-
+- salmon:
 - 1| lbs Salmon, skinless, fresh or frozen & thawed 
 - 1| tbsp Chives, chopped and divided 
 - 0.5| tsp Dry Mustard 
