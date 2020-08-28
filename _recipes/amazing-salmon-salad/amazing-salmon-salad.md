@@ -16,16 +16,16 @@ notes:
 ingredients:
 Salad:
 
-- 1| Red Seedless Grapes, quartered Red Seedless Grapes, quartered 0.25|
-- 0.25| cup Cottage Cheese 0.25|
-- 1.5| tbsp Olive Oil 1
+- 1| Red Seedless Grapes, quartered Red Seedless Grapes, quartered 
+- 0.25| cup Cottage Cheese 
+- 1.5| tbsp Olive Oil 
 - 0.25| tbsp Honey, divided
 
 salmon:
 
-- 1| lbs Salmon, skinless, fresh or frozen & thawed 0.5|
-- 1| tbsp Chives, chopped and divided 1|
-- 0.5| tsp Dry Mustard 0.5|
+- 1| lbs Salmon, skinless, fresh or frozen & thawed 
+- 1| tbsp Chives, chopped and divided 
+- 0.5| tsp Dry Mustard 
 
 directions:
 - Preheat oven to 275F. (That’s not a typo. Baking at low temps allows the fat to slowly melt between the layers of fish producing more tender, moist meat.)
