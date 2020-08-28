@@ -51,6 +51,8 @@
   <!-- You need to create the tiles below if you want shareable thumbnails. -->
   {% for image in page.image %}
   <meta property=" og:image" content="{{site.baseurl}}{{page.url}}/{{image}}">
+  <meta property="og:image:width" content="700">
+  <meta property="og:image:height" content="467">
   {% endfor %}
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
