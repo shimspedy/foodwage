@@ -20,8 +20,8 @@ ingredients:
 - 1|  lb  95% lean Ground Beef
 - 0.5|  tsp  Salt
 - 0.25|  tsp  Black Pepper
-- 3|  n/a  Garlic cloves  minced
-- 1|  n/a  medium Red Onion  (approx. 2.5″ diameter), diced
+- 3|  Garlic cloves  minced
+- 1|   medium Red Onion  (approx. 2.5″ diameter), diced
 - 1.25|  lb  Sweet Potato  peeled and cubed
 - 2|  tsp  Coriander
 - 1.5|  tsp  Cumin
@@ -37,10 +37,10 @@ ingredients:
 - 1|  tsp  cooking Oil
 - 14.5|  oz  Dice Tomatoes  can, drained
 - 1|  c  low sodium Chicken Stock
-- 2|  n/a  medium avocados  diced
+- 2|  medium avocados  diced
 - 0.5|  c  Cilantro  chopped
-- 0.5|  n/a  Lime
-- Optional Garnishes: hot sauce, sour cream, tortilla chips
+- 0.5|  Lime
+- Optional Garnishes hot sauce, sour cream, tortilla chips
 
 directions:
 - Season the ground beef with salt and pepper.
