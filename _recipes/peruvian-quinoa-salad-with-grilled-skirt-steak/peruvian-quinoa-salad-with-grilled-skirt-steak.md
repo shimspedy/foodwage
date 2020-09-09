@@ -28,7 +28,7 @@ ingredients:
 - 0.5|  cup  chopped tomatoes
 - 0.25|  cup  chopped cilantro
 - 0.75|  cup  red quinoa  rinsed and drained
-- 1|  small  garnet sweet potato  peeled and cut into 0.5| inch (1.3cm) cubes
+- 1|  small  garnet sweet potato  peeled and cut into 0.5 inch (1.3cm) cubes
 - 1|  large  ear corn  shucked and kernels shaved from the cob
 - 2|  cups  baby spinach or arugula leaves  lightly packed
 
