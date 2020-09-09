@@ -20,7 +20,7 @@ ingredients:
 - 0.5| cup lemon juice  fresh
 - 1| tablespoon peeled and grated ginger
 - 2| teaspoons  whole grain mustard
-- teaspoons 2| pure maple syrup  optional
+- 2| teaspoons  pure maple syrup  optional
 - 0.25| teaspoon  salt  or to taste
 
 - Salad:
