@@ -9,6 +9,7 @@ tags:  healthy chili-recipe
 meal: lunch dinner
 chef: foodwage
 time: under 4 hour 5 mins
+date: 2019-08-08 11:33:00 +0800
 servings: 8
 
 notes:
