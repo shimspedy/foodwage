@@ -33,7 +33,7 @@ ingredients:
 - 2|  cups  baby spinach or arugula leaves  lightly packed
 
 directions:
-- In a bowl, whisk together the lime juice, olive oil, soy sauce, cumin, 0.25| teaspoon of the salt, black pepper and cayenne. Pour 0.25| cup of the mixture into a zip-top bag. Add the beef to the bag and marinate for at least 30 minutes at room temperature and up to 4 hours in the refrigerator. Add the tomatoes and cilantro to the remaining lime juice mixture and set aside.
+- In a bowl, whisk together the lime juice, olive oil, soy sauce, cumin, 1/4 teaspoon of the salt, black pepper and cayenne. Pour 1/4 cup of the mixture into a zip-top bag. Add the beef to the bag and marinate for at least 30 minutes at room temperature and up to 4 hours in the refrigerator. Add the tomatoes and cilantro to the remaining lime juice mixture and set aside.
 - In a small saucepan, combine 1.5 cups water with the quinoa and the remaining 0.5 teaspoon salt; stir to combine. Put the sweet potatoes and corn in the pan but do not stir. Bring to a boil over high heat. Cover, reduce heat to low and simmer until the water is absorbed and the grains and sweet potato are tender, 15 minutes. Remove from heat, stir in the spinach and let stand covered for 10 minutes.
 - Preheat grill to medium-high heat. Discard the marinade and place skirt steak on the grill. Grill until the steak is medium rare (140°F/60°C), 3–4 minutes per side. Do not overcook or the meat will be tough. Transfer the steak to a cutting board, loosely cover with foil and let rest for 10 minutes.
 - Thinly slice the meat against the grain. Arrange the quinoa on 4 plates and place the steak on top. Drizzle with remaining lime-tomato dressing and serve.
