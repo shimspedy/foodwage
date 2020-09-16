@@ -13,7 +13,6 @@ servings: 8
 
 notes:
 
-- 
 ingredients:
 - Pops:
 

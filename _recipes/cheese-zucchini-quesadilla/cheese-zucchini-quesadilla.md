@@ -14,14 +14,13 @@ servings: 2
 notes:
 
 ingredients:
-Quesadilla:
-
+- Quesadilla:
 - 0.5|  small zucchini  thinly sliced
 - 0.25|  medium sweet white onion  diced
 - 2|  small whole-wheat tortillas  about 120 calories each
 - 1|  ounce  cabra al vino goat cheese  or cheese of choice
 
-Optional Toppings:
+- Optional Toppings:
 
 - 1|  tablespoon  guacamole
 - 1|  tablespoon  salsa
