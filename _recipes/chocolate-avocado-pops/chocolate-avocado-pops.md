@@ -27,7 +27,7 @@ ingredients:
 directions:
 - Set up your pop molds or 4-ounce paper cups, and have 8 popsicle sticks ready to go.
 - In a blender, combine the almond milk, coconut milk, avocado, cocoa, maple syrup and vanilla and secure the lid. Blend the mixture until smooth, then scrape down the sides and blend again making sure there are no lumps.
-- Measure about 0.25| cup (60ml) of the mixture into each pop mold, and divide any leftovers between them. If you are using molds, insert pop sticks and freeze. If you are using paper cups, freeze the pops for about an hour before inserting the sticks; the mixture will be firm enough to hold the stick upright.
+- Measure about 1/4 cup (60ml) of the mixture into each pop mold, and divide any leftovers between them. If you are using molds, insert pop sticks and freeze. If you are using paper cups, freeze the pops for about an hour before inserting the sticks; the mixture will be firm enough to hold the stick upright.
 - To serve, run hot water over the mold and pull out the pop. Paper cups can be torn off and discarded.
 
 ---
