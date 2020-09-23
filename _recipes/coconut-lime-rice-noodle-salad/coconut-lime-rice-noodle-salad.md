@@ -10,7 +10,7 @@ meal: breakfast
 chef: foodwage
 time: under 25 mins
 servings: 2
-
+date: 2019-08-08 11:33:00 +0800
 notes:
 - For maximum freshness, chop avocado and cilantro no more than 12 hours before serving.
 - 
