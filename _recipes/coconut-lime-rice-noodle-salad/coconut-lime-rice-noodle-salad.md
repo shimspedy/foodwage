@@ -16,8 +16,7 @@ notes:
 - 
 ingredients:
 - salad:
-
-- 2| ounces brown rice maifun noodles  also known as brown rice vermicelli (TRY: Annie Chun’s Maifun Brown Rice Noodles)
+- 2| ounces brown rice maifun noodles  also known as brown rice vermicelli 
 - 2.5| tablespoons coconut milk
 - 2.5| teaspoons fresh lime juice
 - 1.25| teaspoons safflower oil
