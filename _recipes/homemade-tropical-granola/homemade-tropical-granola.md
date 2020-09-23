@@ -16,12 +16,12 @@ notes:
 ingredients:
 - Granola:
 
-- 2.5|  cup  rolled oats  0.5|
-- 0.5|  cup  raw sunflower seeds  0.25|
-- 3.5|  tbsp  whole sesame seeds  3.5|
-- 1|  tsp  cinnamon  0.33333333333|
-- 2|  tbsp  melted coconut oil  2|
-- 1|  tsp  vanilla extract  0.5|
+- 2.5|  cup  rolled oats  
+- 0.5|  cup  raw sunflower seeds 
+- 3.5|  tbsp  whole sesame seeds 
+- 1|  tsp  cinnamon 
+- 2|  tbsp  melted coconut oil
+- 1|  tsp  vanilla extract  
 - 1|  cup  unsweetened coconut chips
 
 directions:
