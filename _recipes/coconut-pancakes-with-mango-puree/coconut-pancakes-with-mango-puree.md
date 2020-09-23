@@ -17,7 +17,7 @@ notes:
 ingredients:
 - Puree:
 
-- 1| c mango chopped
+- 1| cup mango chopped
 - 1| tsp fresh lime juice
 
 - pancakes:

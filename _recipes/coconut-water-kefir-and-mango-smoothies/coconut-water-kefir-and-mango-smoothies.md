@@ -29,7 +29,7 @@ ingredients:
 
 directions:
 - Freeze the mango in an airtight container until frozen solid, at least 24 hours.
-- Combine the sugar and 0.25| cup (59ml) boiling water and stir to dissolve. Pour into a clean glass jar or plastic container. Add the coconut water and stir to combine. Add the activated kefir grains, cover jar or container with cheesecloth or a thin towel and secure with a rubber band. Set aside at room temperature until tangy and slightly effervescent, 24–72 hours depending on the ambient temperature.
+- Combine the sugar and 1/4 cup (59ml) boiling water and stir to dissolve. Pour into a clean glass jar or plastic container. Add the coconut water and stir to combine. Add the activated kefir grains, cover jar or container with cheesecloth or a thin towel and secure with a rubber band. Set aside at room temperature until tangy and slightly effervescent, 24–72 hours depending on the ambient temperature.
 - Strain out the kefir grains through a plastic or stainless steel strainer and reserve for another batch. Pour the kefir water into a blender. Add the frozen mango, orange juice, turmeric and blend until smooth. Serve immediately.
 
 ---
