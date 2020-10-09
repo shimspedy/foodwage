@@ -15,7 +15,7 @@ notes:
 
 ingredients:
 - Parmesan Chicken Tenders:
-- 0.33| cup all-purpose flour  
+- 0.333333333| cup all-purpose flour  
 - 3|  tbsp  fine-ground cornmeal
 - 0.25| cup Parmesan cheese  finely grated
 - 0.5|  tsp  garlic powder
