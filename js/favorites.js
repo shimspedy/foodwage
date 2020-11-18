@@ -10,7 +10,19 @@ function removeAllElements(array, elem) {
     index = array.indexOf(elem);
   }
 }
-
+removeAllElements(options, 'goog_pem_mod');
+removeAllElements(options, 'google_experiment_mod42');
+removeAllElements(options, 'google_experiment_mod36');
+removeAllElements(options, 'google_experiment_mod47');
+removeAllElements(options, 'google_experiment_mod44');
+removeAllElements(options, 'google_experiment_mod37');
+removeAllElements(options, 'google_experiment_mod50');
+removeAllElements(options, 'google_experiment_mod51');
+removeAllElements(options, 'google_experiment_mod34');
+removeAllElements(options, 'google_experiment_mod49');
+removeAllElements(options, 'google_experiment_mod40');
+removeAllElements(options, 'google_experiment_mod48');
+removeAllElements(options, 'google_adsense_settings');
 
 console.log(options);
 
