@@ -33,3 +33,4 @@ directions:
 - Remove the foil pack and sprinkle on all the fresh herbs. Serve immediately!
 
 --- 
+These grilled gorgonzola potatoes are loaded with flavor! Crispy, crunchy grilled bab golds topped with creamy blue cheese and fresh herbs.

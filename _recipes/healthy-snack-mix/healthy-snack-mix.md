@@ -2,7 +2,7 @@
 
 layout: recipe
 permalink: recipes/healthy-snack-mix 
-title:  "Not Shitty Snack Mix"
+title:  "Healthy Snack Mix"
 image: healthy-snack-mix.jpg 
 imagecredit: "unsplash.com" 
 categories: snack healthyish oven quick # appetizer baking dressing drink grill healthyish marinade oven pickling quick raw salad sandwich sauce snack soup
@@ -41,3 +41,4 @@ directions:
 - Break it apart and portion out into bags. If desired, you can add a dried fruit, like cherries or cranberries, in with the mix.
 
 --- 
+Learn how to make healthy trail mix with this foolproof method + 3 easy recipes. Trail mix is such an easy and delicious snack to make at home with just a few key ingredients.

@@ -43,3 +43,4 @@ directions:
 - Sprinkle with remaining cilantro or parsley, along with any of the optional toppings. Serve immediately with crusty bread.
 
 --- 
+Shakshuka is a North African and Middle Eastern meal of poached eggs in simmering tomato sauce with spices. Its easy, health and takes less than 30 minutes to make.
