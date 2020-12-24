@@ -53,8 +53,8 @@ directions:
 - Serve immediately, or let cool and refrigerate in an airtight container for up to 3 days, or keep frozen for up to 3 months.
 - For the Enchiladas:
 - Preheat the oven to 400°F.
-- In a medium nonstick skillet, heat the oil over low heat. Add the onion and garlic and cook, stirring, until soft, about 2 minutes. Add the tomato sauce, chicken broth, cooked chicken, 0.25 cup of the cilantro, the chili powder, cumin, oregano, and salt. Simmer until the flavors blend and the sauce reduces, 4 to 5 minutes. Remove the pan from the heat.
-- Spray a 13 x 9-inch glass baking dish with oil. Put 0.33333333333| cup chicken mixture into each tortilla, roll them up, and place seam side down in the baking dish. Top with the enchilada sauce, then sprinkle the top with the cheese. Cover the dish with foil, being careful it does not touch the cheese. Bake until hot and the cheese is melted, 20 to 25 minutes.
+- In a medium nonstick skillet, heat the oil over low heat. Add the onion and garlic and cook, stirring, until soft, about 2 minutes. Add the tomato sauce, chicken broth, cooked chicken, 1/4 cup of the cilantro, the chili powder, cumin, oregano, and salt. Simmer until the flavors blend and the sauce reduces, 4 to 5 minutes. Remove the pan from the heat.
+- Spray a 13 x 9-inch glass baking dish with oil. Put 1/3 cup chicken mixture into each tortilla, roll them up, and place seam side down in the baking dish. Top with the enchilada sauce, then sprinkle the top with the cheese. Cover the dish with foil, being careful it does not touch the cheese. Bake until hot and the cheese is melted, 20 to 25 minutes.
 - To serve, put an enchilada on each of 8 serving plates, sprinkle with the scallions and the remaining 1 tablespoon cilantro, and serve with light sour cream on the side, if desired. 
 
 ---
