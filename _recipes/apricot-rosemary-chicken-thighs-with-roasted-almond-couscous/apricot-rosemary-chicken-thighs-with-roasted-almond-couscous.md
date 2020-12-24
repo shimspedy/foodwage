@@ -1,7 +1,7 @@
 ---
 layout: recipe
 permalink: recipes/apricot-rosemary-chicken-thighs-with-roasted-almond-couscous
-title:  "APRICOT-ROSEMARY CHICKEN THIGHS WITH ROASTED ALMOND COUSCOUS"
+title:  "Apricot Rosemary Chicken Thighs with Roasted Almond Couscous."
 image: Apricot-Rosemary-Chicken-Thighs-with-Roasted-Almond-Couscous.jpg
 imagecredit: "unsplash.com"
 categories:  healthy chicken-recipe
@@ -28,8 +28,8 @@ ingredients:
 - 1.5| pounds  skinless, boneless chicken thighs, trimmed
 - 0.5| teaspoon  freshly ground black pepper
 directions:
-- Bring stock and 0.125| teaspoon salt to a boil in a small saucepan. Stir in couscous. Remove pan from heat; cover and let stand 5 minutes. Stir in parsley and almonds.
-- Combine 0.125| teaspoon salt, apricot preserves, vinegar, and rosemary in a 2-cup glass measure. Microwave at HIGH for 2 minutes, stirring after 1 minute.
+- Bring stock and 1/8 teaspoon salt to a boil in a small saucepan. Stir in couscous. Remove pan from heat; cover and let stand 5 minutes. Stir in parsley and almonds.
+- Combine 1/8 teaspoon salt, apricot preserves, vinegar, and rosemary in a 2-cup glass measure. Microwave at HIGH for 2 minutes, stirring after 1 minute.
 - Heat a grill pan over medium-high heat. Coat pan with cooking spray. Sprinkle chicken with remaining 0.25 teaspoon salt and pepper. Add chicken to pan; grill 3 minutes on each side or until almost done. Brush chicken with half of apricot mixture. Grill chicken 1 minute on each side or until done; brush with remaining half of apricot mixture. Serve with couscous.
 
 ---
