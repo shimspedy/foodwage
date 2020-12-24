@@ -36,7 +36,7 @@ ingredients:
 - Hot sauce  Optional garnishes
 
 directions:
-- Preheat the oven to 400°F (205°C). In a large bowl, combine the chicken, zucchini, corn, black beans, cilantro, cumin, 0.5| cup of tomatillo salsa, 0.5| cup of Greek yogurt and 0.5 the cotija cheese. Season with salt and pepper.
+- Preheat the oven to 400°F (205°C). In a large bowl, combine the chicken, zucchini, corn, black beans, cilantro, cumin, 1/2 cup of tomatillo salsa, 1/2 cup of Greek yogurt and 0.5 the cotija cheese. Season with salt and pepper.
 - Spread 1 cup of the tomatillo salsa in the bottom of a 9-by-13-inch baking dish.
 - Working with one tortilla at a time, spread a scant 0.5 cup of the chicken filling down the middle of a tortilla and roll it up like a cigar. Place the enchilada seam-side down in the baking dish.
 - Repeat with the remaining tortillas and filling. Spread the remaining 1-cup of tomatillo salsa over the top of the enchiladas and sprinkle with the remaining 0.5 cup of cotija cheese.

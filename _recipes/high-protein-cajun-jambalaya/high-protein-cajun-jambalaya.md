@@ -35,7 +35,7 @@ directions:
 - Preheat oven to 400°F (205)°C.
 - In a large mixing bowl, toss together all ingredients, mixing well until combined.
 - Prepare 2 foil pouches. Coat each piece of foil with cooking spray. Divide mixture evenly among both pieces of foil and seal.
-- Place pouches on a baking sheet and position on the middle oven rack, baking 25 minutes or until rice and proteins are fully cooked. (Note: When done, rice will be soft and proteins will be firm and opaque.) To test for doneness, carefully open one pouch and taste a few grains of rice from the center of the pouch. If necessary, close pouch and return to oven for 5 more minutes.
+- Place pouches on a baking sheet and position on the middle oven rack, baking 25 minutes or until rice and proteins are fully cooked. *When done, rice will be soft and proteins will be firm and opaque* To test for doneness, carefully open one pouch and taste a few grains of rice from the center of the pouch. If necessary, close pouch and return to oven for 5 more minutes.
 - Carefully open the pouch and pour the mixture into a large serving bowl; enjoy immediately.
 
 ---
