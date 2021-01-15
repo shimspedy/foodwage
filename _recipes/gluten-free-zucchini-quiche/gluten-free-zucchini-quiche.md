@@ -38,7 +38,7 @@ ingredients:
 directions:
 - Preheat oven to 375ºF (~190ºC). Grease an 8-inch pie dish with olive oil or cooking spray.
 - In a medium-sized bowl, mix all of the ingredients of the crust together until a crumbly dough forms. Pour all of the dough into the pie dish. Spread and flatten the dough on the bottom and up the sides of the pie dish. The dough reached about halfway up the sides of the pie dish for me.
-- Chop off the ends of the zucchini and spiralize it using Blade C. Give the zucchini noodles several chops. This will make it easier to cut and serve the quiche later. Chop the part of the zucchini that did not get spiralized into small pieces. NOTE: If you do not own a spiralizer, simply grate the zucchini or create zucchini ribbons with a vegetable peeler.
+- Chop off the ends of the zucchini and spiralize it using Blade C. Give the zucchini noodles several chops. This will make it easier to cut and serve the quiche later. Chop the part of the zucchini that did not get spiralized into small pieces. *If you do not own a spiralizer, simply grate the zucchini or create zucchini ribbons with a vegetable peeler.*
 - Mix all the vegetables and cheese, and place them into the pie dish. I made sure that some of the zucchini noodles were on top of the quiche, but that is just for presentation.
 - Mix the whisked eggs, milk, thyme, and salt in a small bowl. Fill the pie dish with this egg mixture.
 - Bake the quiche for 30-40 minutes or until the eggs are cooked through and the quiche is browned and firm to touch.
