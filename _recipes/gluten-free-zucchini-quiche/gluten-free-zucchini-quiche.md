@@ -1,7 +1,7 @@
 ---
 layout: recipe
 permalink: recipes/gluten-free-zucchini-quiche
-title:  "GLUTEN-FREE ZUCCHINI QUICHE"
+title:  "gluten free zucchini quiche"
 image: Gluten-Free-Zucchini-Quiche.jpg
 imagecredit: "unsplash.com"
 categories:  healthy eggs gluten-free
