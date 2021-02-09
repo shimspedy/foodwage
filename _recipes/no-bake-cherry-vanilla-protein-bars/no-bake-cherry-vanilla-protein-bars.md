@@ -21,7 +21,7 @@ ingredients:
 - 1|  cup  old-fashioned oats
 - 0.33333333333|  cup  flaxseed, ground
 - 0.33333333333|  cup  unsweetened shredded coconut
-- 3|  scoops  vanilla plant-based protein powder  Note: Whey will not work.
+- 3|  scoops  vanilla plant-based protein powder  **Whey will not work**
 - 0.5|  cup  almond butter
 - 0.25|  cup  pure maple syrup
 - 1|  tablespoon  almond milk
