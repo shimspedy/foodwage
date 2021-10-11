@@ -1,7 +1,7 @@
 ---
 layout: recipe
-permalink: recipes/20-minute-mango-chicken-bowls
-title:  "20-Minute Mango Chicken Bowls"
+permalink: recipes/mango-chicken-bowls
+title:  "Mango Chicken Bowls"
 image: 20-Minute-Mango-Chicken-Bowls.jpg
 imagecredit: "unsplash.com"
 categories:  healthy chicken-recipe dairy-free gluten-free

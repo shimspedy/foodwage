@@ -1,7 +1,7 @@
 ---
 layout: recipe
-permalink: recipes/6-quick-steps-to-homemade-raw-energy-bars
-title:  "6 Quick Steps To Homemade Raw Energy Bars"
+permalink: recipes/quick-steps-to-homemade-raw-energy-bars
+title:  "Quick Steps To Homemade Raw Energy Bars"
 image: 6-Quick-Steps-to-Homemade-Raw-Energy-Bars.jpg
 imagecredit: "unsplash.com"
 categories:  healthy vegan vegetarian

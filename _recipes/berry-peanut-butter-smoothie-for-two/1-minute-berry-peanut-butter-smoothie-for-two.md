@@ -1,7 +1,7 @@
 ---
 layout: recipe
-permalink: recipes/1-minute-berry-peanut-butter-smoothie-for-two
-title:  "1-Minute Berry Peanut Butter Smoothie For Two"
+permalink: recipes/berry-peanut-butter-smoothie-for-two
+title:  "Berry Peanut Butter Smoothie For Two"
 image: 1-Minute-Berry-Peanut-Butter-Smoothie-For-Two.jpg
 imagecredit: "unsplash.com"
 categories:  healthy gluten-free smoothie-recipe
