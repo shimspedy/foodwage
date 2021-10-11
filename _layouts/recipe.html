@@ -23,7 +23,7 @@ title: {{ page.title }}
       {% endif %}
     </div>
     {% endfor %}
-    <div>
+
       <article class="post-content px2">
 
         <!-- call up the main recipe title and content -->
@@ -194,6 +194,11 @@ title: {{ page.title }}
         </div>
         <div class="center mt1">
           <span id="clapText">Clap if you liked this recipe!</span>
+          <!-- rating -->
+          <div>
+            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+             <span itemprop="ratingValue">4.5</span>/5
+          </div>
         </div>
         <div class="clearfix">
           <!-- advertizement -->
