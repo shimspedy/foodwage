@@ -1,8 +1,8 @@
 ---
 layout: recipe
 permalink: recipes/free-mac-n-cheese-with-broccoli
-title:  "‘Free’ Mac N Cheese With Broccoli"
-image: ‘Free-Mac-n-Cheese-With-Broccoli.jpg
+title:  "Free Mac N Cheese With Broccoli"
+image: free-mac-n-cheese-with-broccoli.jpg
 imagecredit: "unsplash.com"
 categories:  healthy pasta vegan vegetarian
 tags:  healthy pasta vegan vegetarian

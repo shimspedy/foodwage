@@ -15,7 +15,7 @@ submitform.on('submit', function (evt) {
     },
     error: function (err) {
       var uploadFailed =
-        "<div class='failed'><span class='closebtn' onclick='this.parentElement.style.display=\"none\";'>&times;</span><strong>Error.</strong> Your message was not sent, please make sure all fields are correct. For other issues please <a class='squigglyURL--main' href='mailto:robert@nhg.design'>send me an e-mail</a>.</div>";
+        "<div class='failed'><span class='closebtn' onclick='this.parentElement.style.display=\"none\";'>&times;</span><strong>Error.</strong> Your message was not sent, please make sure all fields are correct. For other issues please <a class='squigglyURL--main' href='mailto:johnnyhashim@gmail.com'>send me an e-mail</a>.</div>";
       $('#submitform').find('.messages').html(uploadFailed);
     }
   });
