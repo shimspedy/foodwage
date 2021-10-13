@@ -4,16 +4,17 @@ permalink: recipes/coconut-panna-cotta-with-roasted-strawberries
 title:  "Coconut Panna Cotta With Roasted Strawberries"
 image: Coconut-Panna-Cotta-With-Roasted-Strawberries.jpg
 imagecredit: "unsplash.com"
-categories:  healthy dairy free
-tags:  healthy dairy free
+categories:  healthy dairy-free
+tags:  healthy dairy-free
 meal: breakfast
 chef: foodwage
 time: under 4 hour 30 mins
 servings: 4
 
 notes:
-- This dessert requires some advanced planning, but it’s surprisingly hands-off: Whip up the custard base before your guests arrive, then pop it in the fridge for the gelatin to set. When it’s time to serve dessert, the panna cotta will be thick and creamy and ready to eat.
-- 
+- This dessert requires some advanced planning, but it’s surprisingly hands-off  Whip up the custard base before your guests arrive, then pop it in the fridge for the gelatin to set. When it’s time to serve dessert, the panna cotta will be thick and creamy and ready to eat.
+
+
 ingredients:
 - Panna Cotta:
 
