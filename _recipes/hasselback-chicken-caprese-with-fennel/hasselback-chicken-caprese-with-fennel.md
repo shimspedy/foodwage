@@ -8,7 +8,7 @@ categories:  healthy chicken-recipe
 tags:  healthy chicken
 meal: dinner
 chef: foodwage
-time: under 35 mins
+time: under 55 mins
 servings: 4
 
 notes:
