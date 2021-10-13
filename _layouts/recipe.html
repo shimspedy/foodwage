@@ -38,14 +38,14 @@ title: {{ page.title }}
         <hr>
         <div class="clearfix">
           <div class="left">
-            <div>
+            <div  itemprop="recipeCategory" >
               <svg xmlns="http://www.w3.org/2000/svg" width="27" fill-rule="evenodd" stroke-linejoin="round"
                 stroke-miterlimit="2" class="icon--recipe" clip-rule="evenodd" viewBox="0 0 120 120">
                 <path
                   d="M10.909,0c-6.027,0 -10.909,4.882 -10.909,10.909l0,98.182c0,6.027 4.882,10.909 10.909,10.909l98.182,0c6.027,0 10.909,-4.882 10.909,-10.909l0,-98.182c0,-6.027 -4.882,-10.909 -10.909,-10.909l-98.182,0Zm32.727,21.818c3.017,0 5.455,2.438 5.455,5.455l0,10.909l21.818,0l0,-10.909c0,-3.017 2.438,-5.455 5.455,-5.455c3.016,0 5.454,2.438 5.454,5.455l0,10.909l10.909,0c3.017,0 5.455,2.438 5.455,5.454c0,3.017 -2.438,5.455 -5.455,5.455l-10.909,0l0,21.818l10.909,0c3.017,0 5.455,2.438 5.455,5.455c0,3.016 -2.438,5.454 -5.455,5.454l-10.909,0l0,10.909c0,3.017 -2.438,5.455 -5.454,5.455c-3.017,0 -5.455,-2.438 -5.455,-5.455l0,-10.909l-21.818,0l0,10.909c0,3.017 -2.438,5.455 -5.455,5.455c-3.016,0 -5.454,-2.438 -5.454,-5.455l0,-10.909l-10.909,0c-3.017,0 -5.455,-2.438 -5.455,-5.454c0,-3.017 2.438,-5.455 5.455,-5.455l10.909,0l0,-21.818l-10.909,0c-3.017,0 -5.455,-2.438 -5.455,-5.455c0,-3.016 2.438,-5.454 5.455,-5.454l10.909,0l0,-10.909c0,-3.017 2.438,-5.455 5.454,-5.455Zm5.455,27.273l0,21.818l21.818,0l0,-21.818l-21.818,0Z" />
               </svg>
               {% for category in page.categories %}
-              <a itemprop="recipeCategory" aria-label="{{ category }}" class="recipe--category" href="/category/{{ category }}">{{ category }}</a>
+              <a aria-label="{{ category }}" class="recipe--category" href="/category/{{ category }}">{{ category }}</a>
               {% endfor %}
             </div>
             <div>
@@ -72,7 +72,7 @@ title: {{ page.title }}
           <div class="right--align">
             <div>
               {% for time in page.time %}
-              <span   itemprop="cookTime" class="recipe--time">{{ time }}</span>
+              <span class="recipe--time">{{ time }}</span>
               {% endfor %}
               <svg xmlns="http://www.w3.org/2000/svg" width="27" fill-rule="evenodd" stroke-linejoin="round"
                 stroke-miterlimit="2" class="icon--recipe" clip-rule="evenodd" viewBox="0 0 120 120">
@@ -199,7 +199,8 @@ title: {{ page.title }}
           <!-- rating -->
           <div>
             <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-             <span itemprop="ratingValue">4.5</span>/5
+             <span itemprop="ratingValue" style="display: none;">4.5</span>
+             <span itemprop="reviewCount" style="display: none;">40</span>
           </div>
         </div>
         <div class="clearfix">
