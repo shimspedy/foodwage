@@ -2,7 +2,7 @@
 layout: recipe
 permalink: recipes/korean-ground-beef-rice-bowl
 title:  "Korean Ground Beef Rice Bowl"
-image: korean-ground-beef-rice-bowl.jpg
+image: korean-ground-beef-rice-bowl.jpeg
 imagecredit: "unsplash.com"
 categories:   grill healthyish quick original
 tags:  asian beef healthy easy
