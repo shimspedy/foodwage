@@ -1,6 +1,6 @@
 ---
 layout: recipe
-permalink: korean-ground-beef-rice-bowl
+permalink: recipes/korean-ground-beef-rice-bowl
 title:  "Korean Ground Beef Rice Bowl"
 image: korean-ground-beef-rice-bowl.jpg
 imagecredit: "unsplash.com"
