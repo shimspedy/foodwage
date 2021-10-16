@@ -31,7 +31,7 @@ ingredients:
 
 directions:
 - In a heavy-bottomed pot, fry bacon until edges start to brown, about 4–5 minutes. Line a plate with paper towels to absorb excess bacon fat. Reserve 1 1/2 tablespoons bacon fat remaining.
-- Heat the same pot over medium-high heat. Add onions and celery, and cook for about 3 minutes, stirring occasionally. Add sweet potatoes, and cook for another 2 minutes. Add garlic and miso paste, and stir for a minute. (Note: If you don’t have miso, add more salt to taste.) Throw in the peas, and mix everything, cooking for another minute. Pour in the broth and 1 cup of water.
+- Heat the same pot over medium-high heat. Add onions and celery, and cook for about 3 minutes, stirring occasionally. Add sweet potatoes, and cook for another 2 minutes. Add garlic and miso paste, and stir for a minute. ** If you don’t have miso, add more salt to taste.** Throw in the peas, and mix everything, cooking for another minute. Pour in the broth and 1 cup of water.
 - Bring the soup to boil. Stir in thyme, and reduce the heat to low. Let the soup simmer, partially covered, for 45 minutes, or until split peas are just tender. If all the liquids are nearly gone, add 1–2 cups of water, depending on how brothy you want your soup. If you want mushier split peas, cook for another 15–20 minutes. Season to taste with salt and pepper.
 - Crumble bacon, and mix them into the soup.
 
