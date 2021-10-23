@@ -42,3 +42,4 @@ directions:
 - Brush the hot focaccia with the garlic butter. Sprinkle with the herbs. Sprinkle with the flaked sea salt. Cover with the caramelized onions. Slice and serve!
 
 --- 
+Grilled focaccia bread is such a treat! Topped with puddles of garlic butter, fresh chopped herbs and golden, caramelized onions, it's a slice of heaven.
