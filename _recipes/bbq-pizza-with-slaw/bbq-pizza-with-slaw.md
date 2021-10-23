@@ -27,7 +27,7 @@ ingredients:
 -   0.5|  tsp  onion powder
 -   shredded skinless  boneless rotisserie chicken breast
 -   2|  tsp  cornmeal
--   reduced-fat sharp cheddar cheese  grated (about 0.75| cup)
+-   3| ounces reduced-fat sharp cheddar cheese, grated (about 3/4 cup)
 -   2|  tsp  cider vinegar
 -   2|  tsp  extra-virgin olive oil
 -   Dash of sugar
