@@ -33,7 +33,7 @@ ingredients:
 - 1|  pinch  Sea Salt
 
 directions:
-- Heat 1.5| tablespoons of olive oil in a small sauté pan over medium-high heat. When the pan is hot, add the garlic and tomatoes cut side down. Let the tomatoes cook for 3 minutes before turning them over. Cook for another 2-3 minutes and then turn off the heat.
+- Heat 1.5 tablespoons of olive oil in a small sauté pan over medium-high heat. When the pan is hot, add the garlic and tomatoes cut side down. Let the tomatoes cook for 3 minutes before turning them over. Cook for another 2-3 minutes and then turn off the heat.
 - In a food processor or blender, mix the sautéed tomatoes, garlic, sun-dried tomatoes, basil, and salt until smooth.
 - Cut off both ends of each of the yellow squash. Use a vegetable peeler to make ribbons of squash, or spiralize with Blade B to create squash noodles. Chop the noodles several times so that they are easier to eat and slice the part of the squash that is not spiralized and mix in with the squash noodles.
 - If you are adding fennel to this dish, heat a tablespoon of oil in a small sauté pan over medium-high heat. When the pan is hot, add the fennel and sauté them for about 4-5 minutes or until they turn translucent. Season with some fresh dill and salt.
