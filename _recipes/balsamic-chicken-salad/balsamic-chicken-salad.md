@@ -48,7 +48,7 @@ directions:
 - Lay chopped portobello along the bottom of a baking pan. Place chicken on top of portobellos and pour remaining marinade over portobellos. Bake for 10 mins.
 - Remove from oven, flip chicken and bake for another 10 mins. Slice chicken.
 - For the dressing:  Whisk all ingredients until well combined.
-- For the salad:  In a large bowl combine spinach, goat cheese, 0.25| cup of prepared pecans, portobellos and sliced chicken. Toss well with dressing and serve immediately.
+- For the salad:  In a large bowl combine spinach, goat cheese, 1/4 cup of prepared pecans, portobellos and sliced chicken. Toss well with dressing and serve immediately.
 
 ---
 
