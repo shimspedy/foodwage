@@ -13,8 +13,7 @@ date: 2023-08-08 11:33:00 +0800
 servings: 6
 
 notes:
-- Parsnips are carrots’ forgotten beige cousins. These sweet, starchy root veggies are full of fiber, potassium and vitamin C. Our garlic parsnip fries are topped with Parmesan and a spicy curry lime yogurt dip that will make you forget about fast food.
-- Parsnips are carrots’ forgotten beige cousins. These sweet, starchy root veggies are full of fiber, potassium and vitamin C. Our garlic parsnip fries are topped with Parmesan and a spicy curry lime yogurt dip that will make you forget about fast food.
+
 ingredients:
 - Baked Parsnip Fries with Curry-Lime Yogurt Dip:
 
