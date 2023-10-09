@@ -9,7 +9,7 @@ tags:  healthy chicken
 meal: lunch
 chef: foodwage
 time: under 15 mins
-date: 2019-08-08 11:33:00 +0800
+date: 2023-08-08 11:33:00 +0800
 servings: 2
 
 notes:
