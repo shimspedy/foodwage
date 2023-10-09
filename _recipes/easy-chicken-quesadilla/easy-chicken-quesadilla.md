@@ -17,7 +17,6 @@ notes:
 
 ingredients:
 - Easy Chicken Quesadilla:
-
 - 1|  medium  tomato  seeded and chopped
 - 0.25|  cup  chopped onion
 - 1|  tablespoon  chopped fresh cilantro

@@ -9,7 +9,7 @@ tags:  healthy gluten-free vegan vegetarian
 meal: snacks
 chef: foodwage
 time: under 30 mins
-date: 2019-08-08 11:33:00 +0800
+date: 2023-08-08 11:33:00 +0800
 servings: 6
 
 notes:
