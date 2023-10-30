@@ -1,6 +1,7 @@
 ---
 layout: default-recipe
 title: {{ page.title }}
+date : {{ site.time | date: "%-d %B %Y"}}
 ---
 <div class="container" itemscope itemtype="https://schema.org/Recipe">
   {% include header-recipe.html %}
@@ -91,7 +92,7 @@ title: {{ page.title }}
               </svg>
             </div>
             <div>
-              <span class="recipepage--meal">{{ site.time | date: "%-d %B %Y"}}</span></div>
+              <span class="recipepage--meal">Updated on {{ site.time | date: "%-d %B %Y"}}</span></div>
           </div>
         </div>
         <hr>

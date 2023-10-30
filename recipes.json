@@ -6,6 +6,7 @@ layout: null
 [{% for post in site.recipes %}
     {
         "title": "{{ post.title }}",
+        "datePublished": "{{ site.time | date: "%-d %B %Y"}}"
         "image": "images/large/{{ post.image }}",
         "url": "{{ post.url | prepend: site.baseurl }}",
     }{% if counter == total %}{% else %},{% endif %}
