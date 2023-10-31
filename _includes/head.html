@@ -70,7 +70,7 @@
      "@type": "Recipe",
      "name": "{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}",
 
-     "datePublished": "{{ post.url | prepend: site.baseurl }}",
+     "datePublished": "{{ site.time | date: "%-d %B %Y"}}",
      {
       "@type": "SpeakableSpecification",
       "xpath": [
