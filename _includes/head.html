@@ -67,9 +67,10 @@
   <script type="application/ld+json">
     {
      "@context": "https://schema.org/",
-     "@type": "WebPage",
+     "@type": "Recipe",
      "name": "{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}",
-     "speakable":
+
+     "datePublished": "{{ post.url | prepend: site.baseurl }}",
      {
       "@type": "SpeakableSpecification",
       "xpath": [
