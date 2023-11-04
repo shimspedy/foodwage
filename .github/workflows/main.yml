@@ -3,7 +3,7 @@ on:
   schedule:
     # “At 20:00 on every day-of-week from Monday through Friday.”
     # https://crontab.guru/#0_20_*_*_1-5
-    - cron: '30 5 * * *'
+    - cron: '0 1 * * 1'
 jobs:
   build:
     name: Build Hook
