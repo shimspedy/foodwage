@@ -10,7 +10,6 @@ github_username:
 timezone: Europe/Bucharest
 markdown: kramdown
 
-
 permalink: /:title:output_ext
 
 collections:
