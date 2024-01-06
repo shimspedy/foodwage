@@ -37,4 +37,14 @@ directions:
 
 ---
 
-Craving French toast, but don’t want all the calories that usually comes along with it? Our baked banana French toast saves you calories and adds nutritional value without compromising the traditional sweet, eggy bread flavors. We use simple swaps such as baking instead of frying and whole-grain instead of white bread. Give this dish a personal flair with your favorite toppings!
+Baked Banana French Toast is a delightful twist on the classic breakfast dish, infusing the sweet, caramelized flavors of banana into every bite. This dish begins with slices of bread, often a day old or slightly stale, which helps absorb the rich custard without becoming too soggy. The bread is then soaked in a mixture of eggs, milk, vanilla, and a touch of cinnamon, providing a creamy texture and warm, spiced flavor.
+
+As the name suggests, bananas play a crucial role in this recipe. They can be mashed and mixed into the custard or thinly sliced and layered between the bread. As the dish bakes, the bananas caramelize, releasing their natural sugars and creating a gooey, delicious layer that complements the custard-soaked bread.
+
+To add an extra dimension of flavor and texture, some recipes call for a streusel topping made from butter, flour, brown sugar, and maybe a pinch of cinnamon. This topping is sprinkled over the dish before baking, resulting in a crispy, crumbly crust that contrasts beautifully with the soft, pudding-like interior of the French toast.
+
+Baking is a convenient method for preparing French toast for a group, as it allows you to make a large batch at once without the need to stand over a stove flipping individual pieces. It's also a bit healthier, requiring less butter or oil than the traditional pan-frying method.
+
+To serve, the Baked Banana French Toast is typically cut into squares and served warm. It can be enjoyed as is or topped with additional banana slices, a drizzle of maple syrup, a dollop of whipped cream, or a sprinkle of powdered sugar. For a truly indulgent breakfast or brunch, some might even add a scoop of vanilla ice cream on top.
+
+This dish is perfect for lazy weekend mornings, special occasions, or whenever you want to treat yourself and your loved ones to something sweet and comforting. With its combination of creamy custard, soft bread, sweet bananas, and crispy topping, Baked Banana French Toast is sure to satisfy any sweet tooth and become a new favorite in your breakfast rotation.
