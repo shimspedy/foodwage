@@ -1,7 +1,7 @@
 title: FoodWage
 email: johnnyhashim@gmail.com
 description: Enjoy home made recipe on foodwage.
-baseurl: " "
+baseurl: ""
 language: "en"
 lang_direction: "ltr"
 color: "#BD8721"
@@ -9,6 +9,7 @@ twitter_username:
 github_username: 
 timezone: Europe/Bucharest
 markdown: kramdown
+
 
 permalink: /:title:output_ext
 
@@ -22,7 +23,7 @@ collections:
   meal:
     output: true
 
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md','_static']
 
 pagination:
   enabled: true
