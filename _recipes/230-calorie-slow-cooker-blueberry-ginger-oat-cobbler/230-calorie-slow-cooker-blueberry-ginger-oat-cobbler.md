@@ -1,4 +1,5 @@
 ---
+date: 2023-08-08 11:33:00 +0800
 layout: recipe
 permalink: recipes/230-calorie-slow-cooker-blueberry-ginger-oat-cobbler
 title:  "230-Calorie Slow-Cooker Blueberry-Ginger Oat Cobbler"

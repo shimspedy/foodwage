@@ -1,4 +1,5 @@
 ---
+date: 2023-08-08 11:33:00 +0800
 layout: recipe
 permalink: recipes/acorn-squash-egg-in-the-hole
 title:  "Acorn Squash Egg-In-The-Hole"

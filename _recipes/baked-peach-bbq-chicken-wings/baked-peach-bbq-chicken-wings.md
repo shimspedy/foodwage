@@ -9,7 +9,7 @@ tags:  healthy chicken dairy-free gluten-free
 meal: snacks
 chef: foodwage
 time: under 2 hour 25 mins
-date: 2019-08-08 11:33:00 +0800
+date: 2023-08-08 11:33:00 +0800
 servings: 4
 
 notes:
