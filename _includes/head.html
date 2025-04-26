@@ -4,20 +4,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}</title>
-  <meta name="title" content="FoodWage">
+  <meta name="title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
   <meta name="description"
-  content="{% if page.name == recipe.html %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %} The world’s most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you’re never out of ideas of what to serve at your next meal.{% endif %}">
+  content="{% if page.layout == 'recipe' %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}The world's most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you're never out of ideas of what to serve at your next meal.{% endif %}">
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}recipes, food, cooking, healthy recipes, meal prep{% endif %}">
+  <meta name="author" content="{% if page.chef %}{{ page.chef | join: ', ' }}{% else %}FoodWage{% endif %}">
+  <meta name="robots" content="index, follow">
   <meta name="p:domain_verify" content="c75329cdba6976f3f68a1faa6493a33c"/>
   <link rel="preload" as="font" href="/assets/fonts/inter.css" crossorigin />
   <link rel="stylesheet" href="/css/bass.css" />
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/seo.css" />
   <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+
+  <!-- Preconnect to required origins -->
+  <link rel="preconnect" href="https://code.jquery.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
   <script src="/js/random.json" type="text/javascript"></script>
-  <script src="/js/randomhero.js" type="text/javascript"></script>
-  <script src="/js/searchevents.js" type="text/javascript"></script>
-  <script src="/js/signature.js" type="text/javascript"></script>
+  <script src="/js/randomhero.js" type="text/javascript" defer></script>
+  <script src="/js/searchevents.js" type="text/javascript" defer></script>
+  <script src="/js/signature.js" type="text/javascript" defer></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/icons/favicon-32x32.png">
@@ -32,27 +41,30 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{% if page.layout == 'recipe' %}article{% else %}website{% endif %}">
   <meta property="og:url" content="https://foodwage.com{{site.baseurl}}{{page.url}}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
   <meta property="og:description"
-    content="{% if page.name == recipe.html %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %} The world’s most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you’re never out of ideas of what to serve at your next meal.{% endif %}">
-  <!-- You need to create the tiles below if you want shareable thumbnails. -->
+    content="{% if page.layout == 'recipe' %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}The world's most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you're never out of ideas of what to serve at your next meal.{% endif %}">
+  {% if page.image %}
   {% for image in page.image %}
-  <meta property=" og:image" content="{{site.baseurl}}{{page.url}}/{{image}}">
+  <meta property="og:image" content="https://foodwage.com{{site.baseurl}}{{page.url}}/{{image}}">
   <meta property="og:image:width" content="700">
   <meta property="og:image:height" content="467">
   {% endfor %}
+  {% endif %}
+  
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://foodwage.com{{site.baseurl}}{{page.url}}">
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
   <meta property="twitter:description"
-    content="{% if page.name == recipe.html %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %} The world’s most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you’re never out of ideas of what to serve at your next meal.{% endif %}">
+    content="{% if page.layout == 'recipe' %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}The world's most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you're never out of ideas of what to serve at your next meal.{% endif %}">
+  {% if page.image %}
   {% for image in page.image %}
-  <meta property="twitter:image" content="{{site.baseurl}}{{page.url}}/{{image}}">
+  <meta property="twitter:image" content="https://foodwage.com{{site.baseurl}}{{page.url}}/{{image}}">
   {% endfor %}
-
+  {% endif %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTGGWVXZ0D"></script>
@@ -64,21 +76,83 @@
   gtag('config', 'G-JTGGWVXZ0D');
 </script>
 
+  <!-- Improved Schema.org Recipe Markup -->
+  {% if page.layout == 'recipe' %}
   <script type="application/ld+json">
     {
-     "@context": "https://schema.org/",
-     "@type": "Recipe",
-     "name": "{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}",
-
-     "datePublished": "{{ site.time | date: "%-d %B %Y"}}",
-     {
-      "@type": "SpeakableSpecification",
-      "xpath": [
-        "/html/head/title",
-        "/html/head/meta[@name='description']/@content"
-        ]
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "{{ page.title }}",
+      "description": "{{ page.content | strip_html | strip_newlines | truncate: 160 }}",
+      "datePublished": "{{ site.time | date: '%Y-%m-%d' }}",
+      "author": {
+        "@type": "Person",
+        "name": "{% if page.chef %}{{ page.chef | join: ', ' }}{% else %}FoodWage{% endif %}"
       },
-     "url": "https://foodwage.com{{site.baseurl}}{{page.url}}"
-     }
-    </script>
+      "image": [
+        {% for image in page.image %}
+        "https://foodwage.com{{site.baseurl}}{{page.url}}/{{image}}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      "recipeCategory": {% if page.categories %}"{{ page.categories | join: ', ' }}"{% else %}""{% endif %},
+      "recipeCuisine": {% if page.cuisine %}"{{ page.cuisine | join: ', ' }}"{% else %}""{% endif %},
+      "keywords": "{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}recipes, food, cooking{% endif %}",
+      {% if page.time %}
+      "prepTime": "PT{{ page.time | first }}",
+      {% endif %}
+      "recipeYield": "{% if page.servings %}{{ page.servings }} serving{% if page.servings > 1 %}s{% endif %}{% else %}1 serving{% endif %}",
+      "nutrition": {
+        "@type": "NutritionInformation"
+        {% if page.calories %},"calories": "{{ page.calories }}"{% endif %}
+      },
+      "recipeIngredient": [
+        {% for ingredient in page.ingredients %}
+        {% if ingredient.first %}
+        {% for i in ingredient.first[1] %}
+        "{{ i | strip_html | strip_newlines | replace: '"', "'" }}"{% unless forloop.last and forloop.parent.last %},{% endunless %}
+        {% endfor %}
+        {% else %}
+        "{{ ingredient | strip_html | strip_newlines | replace: '"', "'" }}"{% unless forloop.last %},{% endunless %}
+        {% endif %}
+        {% endfor %}
+      ],
+      "recipeInstructions": [
+        {% for direction in page.directions %}
+        {% if direction.first %}
+        {% for d in direction.first[1] %}
+        {
+          "@type": "HowToStep",
+          "text": "{{ d | strip_html | strip_newlines | replace: '"', "'" }}"
+        }{% unless forloop.last and forloop.parent.last %},{% endunless %}
+        {% endfor %}
+        {% else %}
+        {
+          "@type": "HowToStep",
+          "text": "{{ direction | strip_html | strip_newlines | replace: '"', "'" }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endif %}
+        {% endfor %}
+      ],
+      "url": "https://foodwage.com{{site.baseurl}}{{page.url}}",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["title", "meta[name='description']"]
+      }
+    }
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FoodWage",
+      "url": "https://foodwage.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://foodwage.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  {% endif %}
 </head>

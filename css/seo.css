@@ -1,0 +1,67 @@
+/* SEO-friendly accessibility improvements */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+/* Focus styles for keyboard navigation */
+a:focus, button:focus, input:focus {
+  outline: 3px solid #BD8721;
+  outline-offset: 2px;
+}
+
+/* Improve responsiveness for search engines */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #BD8721;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Contrast improvements */
+.title {
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+/* Improve tap targets for mobile */
+@media (max-width: 768px) {
+  .nav-item a,
+  button,
+  .share a {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Improve content width for readability */
+.sm-col-8 {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Lazy load image placeholder styles */
+.image.ratio.bg-cover[data-echo-background] {
+  transition: background-image 0.5s ease-in-out;
+  background-color: #f5f5f5;
+}

@@ -1,2 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_anewRecipe/
+
+# Sitemap location
+Sitemap: https://foodwage.com/sitemap.xml

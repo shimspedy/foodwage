@@ -3,16 +3,21 @@
   
   {% include head.html %}
   <body>
+    <a href="#content" class="skip-link">Skip to content</a>
 
-  	{% include header.html %}
+    {% include header.html %}
 
-    <div class="page-content">
+    <main id="content" class="page-content">
       <div class="main-container">
         {{ content }}
       </div>
-    </div>
+    </main>
 
-  {% include footer.html %}
+    {% include footer.html %}
+    
+    <!-- Preload key pages for faster navigation -->
+    <link rel="preload" as="document" href="/" />
+    <link rel="preload" as="document" href="/recipes.html" />
   </body>
 
 </html>

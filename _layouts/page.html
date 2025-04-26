@@ -4,11 +4,19 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-description" itemprop="description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
-  <article class="post-content">
-    {{ content }}
+  <article class="post-content" itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="headline" content="{{ page.title }}">
+    <meta itemprop="author" content="FoodWage">
+    <meta itemprop="datePublished" content="{{ site.time | date: '%Y-%m-%d' }}">
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
   </article>
 
 </div>
