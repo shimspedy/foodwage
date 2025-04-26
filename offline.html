@@ -1,0 +1,30 @@
+---
+layout: default
+title: You're offline
+---
+<div class="container">
+  <div class="px2 mt3 mb4 center">
+    <h1 class="h2 mt4">You're currently offline</h1>
+    <p class="mb3">It looks like you're not connected to the internet. Don't worry, you can still access recipes you've previously visited.</p>
+    
+    <div class="mt3">
+      <h3 class="h3">Try one of these options:</h3>
+      <ul class="list-reset">
+        <li class="mb2">Check your internet connection and try again</li>
+        <li class="mb2">Go to the <a href="/">homepage</a> to see if it's cached</li>
+        <li class="mb2">Try accessing a recipe you've previously viewed</li>
+      </ul>
+    </div>
+    
+    <div class="mt4">
+      <button class="button px2 py1" onclick="window.location.reload()">Try Again</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Check if we're online periodically and reload if connection is restored
+  window.addEventListener('online', () => {
+    window.location.reload();
+  });
+</script>

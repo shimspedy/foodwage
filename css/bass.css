@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent
 }
 
 :after,
@@ -50,7 +49,8 @@ input[type=week] {
   height: 2.25rem;
   padding: .5rem;
   vertical-align: middle;
-  -webkit-appearance: none
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 ::-moz-focus-inner {
@@ -164,7 +164,6 @@ h6 {
 
 .bold {
   font-weight: 700;
-  font-weight: 700
 }
 
 .left-align {

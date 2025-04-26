@@ -8,8 +8,8 @@
         You will find what you're looking for on this site, whether it's a new recipe or what you happen to have on
         hand.
         <br>
-        <span class="quote"><span class="quotes">„</span>The world’s an amazingly delicious place <span
-            class="quotes">“</span></span> --<strong>FW</strong>
+        <span class="quote"><span class="quotes">„</span>The world's an amazingly delicious place <span
+            class="quotes">"</span></span> --<strong>FW</strong>
       </div>
       <div class="lg-col xs-col sm-col md-col lg-col-3 md-col-6 sm-col-6 xs-col-6 p1 footer--links">
         <h4>Links</h4>
@@ -32,13 +32,6 @@
       </div>
       <div class="mx-auto center col lg-col-12 md-col-12 sm-col-12 xs-col-12 p1 footer--copyright">
         <hr>
-        <!----<a aria-label="e-mail" class="squigglyURL--main" href='mailto:hello@foodwage.com'>hello@<span
-            class="siteName"><em>food<strong>wage</strong></em></span>.com</span></a><br>
-        <span class="footer--love">
-          made with
-          <svg height=".8em" fill="#e83151" viewBox="0 0 32 32">
-            <path d="M0 10c0-4 3-8 8-8 4 0 7 3 8 4 1-1 4-4 8-4 6 0 8 4 8 8 0 8-14 19-16 20-2-1-16-12-16-20" />
-          </svg></p>--->
         <span>all rights reserved &copy; <span id="copyright">
             <script>
               document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
@@ -48,3 +41,37 @@
     </div>
   </div>
 </footer>
+
+<!-- Service worker registration script -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+</script>
+
+<!-- Load deferred JavaScript -->
+<script>
+  // Function to load deferred scripts
+  function loadDeferredStyles() {
+    const addStylesNode = document.getElementById("deferred-styles");
+    if (addStylesNode) {
+      const replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement);
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    }
+  }
+  
+  // Execute on page load with a small delay to prioritize visible content
+  window.addEventListener('load', function() {
+    setTimeout(loadDeferredStyles, 300);
+  });
+</script>

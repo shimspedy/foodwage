@@ -144,3 +144,54 @@
           }
         });
     </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Lazy loading for background images
+  let lazyBackgrounds = [].slice.call(document.querySelectorAll("[data-echo-background]"));
+  
+  // IntersectionObserver for more efficient lazy loading
+  if ("IntersectionObserver" in window) {
+    let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyBackground = entry.target;
+          lazyBackground.style.backgroundImage = "url(" + lazyBackground.dataset.echoBackground + ")";
+          lazyBackgroundObserver.unobserve(lazyBackground);
+        }
+      });
+    }, {
+      rootMargin: "100px"
+    });
+
+    lazyBackgrounds.forEach(function(lazyBackground) {
+      lazyBackgroundObserver.observe(lazyBackground);
+    });
+  } else {
+    // Fallback for browsers without IntersectionObserver support
+    function loadBackgrounds() {
+      let scrollTop = window.pageYOffset;
+      lazyBackgrounds.forEach(function(lazyBackground) {
+        if (lazyBackground.offsetTop < (window.innerHeight + scrollTop)) {
+          lazyBackground.style.backgroundImage = "url(" + lazyBackground.dataset.echoBackground + ")";
+          lazyBackgrounds = lazyBackgrounds.filter(function(bg) { 
+            return bg !== lazyBackground; 
+          });
+        }
+      });
+      if (lazyBackgrounds.length === 0) {
+        document.removeEventListener("scroll", lazyLoad);
+        window.removeEventListener("resize", lazyLoad);
+        window.removeEventListener("orientationchange", lazyLoad);
+      }
+    }
+
+    // Load initial images in viewport
+    loadBackgrounds();
+    
+    // Listen for events
+    document.addEventListener("scroll", loadBackgrounds);
+    window.addEventListener("resize", loadBackgrounds);
+    window.addEventListener("orientationchange", loadBackgrounds);
+  }
+});
+</script>
