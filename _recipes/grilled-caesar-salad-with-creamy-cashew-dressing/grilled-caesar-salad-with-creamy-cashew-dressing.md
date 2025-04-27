@@ -30,7 +30,7 @@ ingredients:
 - Shrimp:
 
 - 2| tsp olive oil
-- 8| ounces large shrimp about 16|
+- 8| ounces large shrimp about 16
 
 directions:
 - Trim the base of the cauliflower, and cut the florets and stems into 1.5|-inch (3.75cm) chunks. Place about half the cauliflower into the bowl of a food processor and pulse, chopping to the size of rice. Scrape into a bowl and repeat with the remaining cauliflower. Reserve.

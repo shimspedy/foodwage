@@ -2,37 +2,93 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <title>{% if page.title %}{{ page.title }} - FoodWage{% else %}FoodWage - Healthy Recipes and Meal Ideas{% endif %}</title>
+  <meta name="title" content="{% if page.title %}{{ page.title }} - FoodWage{% else %}FoodWage - Healthy Recipes and Meal Ideas{% endif %}">
+  <meta name="description" content="{% if page.content %}{{ page.content | strip_html | truncate: 160 }}{% else %}Find healthy, delicious recipes with calculated nutrition information. Browse by meal type, diet restrictions, and more.{% endif %}">
+  <meta name="author" content="FoodWage">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - FoodWage{% else %}FoodWage - Healthy Recipes and Meal Ideas{% endif %}">
+  <meta property="og:description" content="{% if page.content %}{{ page.content | strip_html | truncate: 160 }}{% else %}Find healthy, delicious recipes with calculated nutrition information. Browse by meal type, diet restrictions, and more.{% endif %}">
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.url }}/{{ page.image[0] }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/foodwage-social.jpg">
+  {% endif %}
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - FoodWage{% else %}FoodWage - Healthy Recipes and Meal Ideas{% endif %}">
+  <meta property="twitter:description" content="{% if page.content %}{{ page.content | strip_html | truncate: 160 }}{% else %}Find healthy, delicious recipes with calculated nutrition information. Browse by meal type, diet restrictions, and more.{% endif %}">
+  {% if page.image %}
+  <meta property="twitter:image" content="{{ site.url }}{{ page.url }}/{{ page.image[0] }}">
+  {% else %}
+  <meta property="twitter:image" content="{{ site.url }}/assets/foodwage-social.jpg">
+  {% endif %}
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  
+  <!-- Link to main stylesheet -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}">
+  
+  <!-- Theme color for browser chrome -->
+  <meta name="theme-color" content="#4CAF50">
+  
+  <!-- Favicon set -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#4CAF50">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" as="font" href="/fonts/main-font.woff2" type="font/woff2" crossorigin>
+  
+  <!-- Feed -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  
+  <!-- Structured data for site-wide search -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FoodWage",
+      "url": "https://foodwage.com",
+      "logo": "https://foodwage.com/assets/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/foodwage",
+        "https://twitter.com/foodwage",
+        "https://www.instagram.com/foodwage"
+      ]
+    }
+  </script>
 
-  <title>{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}</title>
-  <meta name="title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
-  <meta name="description"
-  content="{% if page.layout == 'recipe' %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% else %}The world's most delicious page. Surf through our favorite recipes paired with expert tips and tricks to ensure you're never out of ideas of what to serve at your next meal.{% endif %}">
-  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}recipes, food, cooking, healthy recipes, meal prep{% endif %}">
-  <meta name="author" content="{% if page.chef %}{{ page.chef | join: ', ' }}{% else %}FoodWage{% endif %}">
   <meta name="robots" content="index, follow">
   <meta name="p:domain_verify" content="c75329cdba6976f3f68a1faa6493a33c"/>
   
-  <!-- Preload critical assets -->
   <link rel="preload" as="font" href="/assets/fonts/inter.css" crossorigin="anonymous" />
   <link rel="preload" href="/css/min/bass.min.css" as="style" />
   <link rel="stylesheet" href="/css/min/bass.min.css" />
-  <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/seo.css" media="print" onload="this.media='all'" />
   <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" media="print" onload="this.media='all'" />
 
-  <!-- PWA Support -->
-  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="FoodWage">
 
-  <!-- Preconnect to required origins -->
   <link rel="preconnect" href="https://code.jquery.com">
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://pagead2.googlesyndication.com">
   <link rel="preconnect" href="https://unpkg.com">
 
-  <!-- Load critical scripts first, defer non-critical scripts -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js" defer></script>
   <script src="/js/random.json" type="text/javascript" defer></script>
   <script src="/js/randomhero.js" type="text/javascript" defer></script>
@@ -47,11 +103,7 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/icons/favicon.ico">
   <meta name="msapplication-TileColor" content="#E83151">
   <meta name="msapplication-config" content="{{ site.baseurl }}/icons/browserconfig.xml">
-  <meta name="theme-color" content="#E83151">
   
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-
-  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="{% if page.layout == 'recipe' %}article{% else %}website{% endif %}">
   <meta property="og:url" content="https://foodwage.com{{site.baseurl}}{{page.url}}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
@@ -65,7 +117,6 @@
   {% endfor %}
   {% endif %}
   
-  <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://foodwage.com{{site.baseurl}}{{page.url}}">
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | FoodWage{% else %}FoodWage{% endif %}">
@@ -77,7 +128,6 @@
   {% endfor %}
   {% endif %}
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTGGWVXZ0D"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -90,7 +140,6 @@
   });
 </script>
 
-  <!-- Improved Schema.org Recipe Markup -->
   {% if page.layout == 'recipe' %}
   <script type="application/ld+json">
     {

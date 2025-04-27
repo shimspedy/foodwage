@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   {% include head.html %}
-  <body>
+  <body class="site">
+    <!-- Add JSON-LD structured data for website -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FoodWage",
+      "url": "https://foodwage.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://foodwage.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
     <a href="#content" class="skip-link">Skip to content</a>
 
     {% include header.html %}
-
-    <main id="content" class="page-content">
+    <main id="content" class="site-content">
       <div class="main-container">
         {{ content }}
       </div>
     </main>
-
     {% include footer.html %}
     
-    <!-- Preload key pages for faster navigation -->
-    <link rel="preload" as="document" href="/" />
-    <link rel="preload" as="document" href="/recipes.html" />
+    <!-- Preconnect to common domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
   </body>
-
 </html>

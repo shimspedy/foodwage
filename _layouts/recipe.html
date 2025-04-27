@@ -5,6 +5,20 @@ date : {{ site.time | date: "%-d %B %Y"}}
 ---
 <div class="container" itemscope itemtype="https://schema.org/Recipe">
   {% include header-recipe.html %}
+  <!-- Add proper OpenGraph and Twitter Card meta tags for better social sharing -->
+  <meta property="og:title" content="{{ page.title }} - FoodWage Recipe">
+  <meta property="og:description" content="{{ page.content | strip_html | truncate: 160 }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="article">
+  {% for image in page.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.url }}/{{ image }}">
+  {% endfor %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} - FoodWage Recipe">
+  <meta name="twitter:description" content="{{ page.content | strip_html | truncate: 160 }}">
+  {% for image in page.image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.url }}/{{ image }}">
+  {% endfor %}
   <!-- call up the image and image credit link with optimized loading -->
   {% for image in page.image %}
   <div class="xs-p1">
